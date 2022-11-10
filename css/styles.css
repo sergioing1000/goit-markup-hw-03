@@ -1,0 +1,581 @@
+:root{
+    --color-text: #2196F3;
+    --backg1-color: #2F303A;
+}
+
+
+.principal {
+    
+    /* display: flex;    
+    flex-direction: column; */    
+    display: inline-block;
+}
+.encabezado{
+    
+    width: 1600px;
+    height: 80px ;
+    border-color: blue;
+
+}
+
+.estudio-web1{
+
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: -10px;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.94em; /* 31px */
+    letter-spacing: 0.03em;
+    text-align: right;
+    
+    color: var(--color-text);
+    
+}
+
+.menu-nav{
+    position: absolute;
+    width: 290px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.enlace-activo{
+    
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em; /*16px;*/
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: black;
+    text-decoration: none;
+
+}
+.enlace-activo:hover {
+    color: var(--color-text);
+    cursor: pointer;
+}
+.portafolio{
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em; /*16px;*/
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #212121;
+    text-decoration: none;
+}
+.portafolio:hover {
+    color: var(--color-text);
+    cursor: pointer;
+}
+.contactos{
+
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em; /*16px;*/
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #212121;
+    text-decoration: none;
+}
+.contactos:hover {
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.correo-electronico{
+    
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em; /*16px;*/
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: black;
+
+    text-decoration: none;
+}
+.correo-electronico:hover {
+
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.telefono{
+    position: absolute;
+    width: 120px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em; /*16px;*/
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: black;
+    text-decoration: none;
+}
+.telefono:hover {
+    color: var(--color-text);
+    cursor: pointer;
+}
+.titulo{
+
+        height: 600px;
+        width: 1600px;
+        
+        background-color: var(--backg1-color);
+
+        display: flex;
+        flex-direction: row-reverse;
+        
+        display: inline-block;
+
+}
+.button {
+        background-color: var(--color-text);
+
+        border: none;
+        color: white;
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 350px 650px;
+        cursor: pointer;
+}
+.texto-titulo{
+
+    margin: 0;
+    position: absolute;
+    
+    height: 120px;
+    width: 696px;
+    left: 448px;
+    top: 280px;
+    border-radius: 50px;
+
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 3.75em; /*60px;*/
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.boton{  
+    margin: 350px 670px 200px 669px;    
+    display: inline-flex;
+}
+.features{
+    margin-top: 80px;
+    text-align: center;
+}
+.lista-features {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;  /*16px;*/
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.lista-titulos{
+    padding: 20px;
+    width: 270px;
+}
+.a-que-nos-dedicamos{
+
+    display: inline-block;
+    
+    position: absolute;
+    /* width: 1173.16px; */
+    width: 1220.16px;
+    height: 425px;
+    /* left: 215px; */
+    left: 215px;
+    top: 991px;
+  
+}
+.a-que-nos-dedicamos-titulo{
+    
+    margin-left: 404px;
+    margin-right: 397px;
+    margin-bottom: 55px ;
+    width: 371.15px;
+    height: 46.24px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.63em; /*16px;*/
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.a-que-nos-dedicamos-ulist
+{
+    display: inline-block;
+    list-style-type: none;
+}
+.imagen1{
+    display: inline-block;
+    width: 373px;
+    height: 323.7px;    
+}
+.imagen2 {
+    display: inline-block;
+    margin-left: 23px;
+    width: 373px;
+    height: 323.7px;    
+}
+.imagen3 {
+    display: inline-block;
+    margin-left: 23px;
+    width: 373px;
+    height: 323.7px;  
+}
+
+.nuestro-equipo{
+    display: block;
+
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+
+    background-color: #F5F4FA;
+}
+.nuestro-equipo-titulo{
+
+    position: absolute;
+    width: 265px;
+    height: 42px;
+    left: 669px;
+    top: 94px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.63em; /*42px;*/
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.equipo{
+    text-align: center;
+}
+.equipo1{
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 208px;
+    top: 186px;
+
+    background: #FFFFFF;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.equipo2{
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 186px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.equipo3{
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 822px;
+    top: 186px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.equipo4 {
+    display: inline-block;
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1129px;
+    top: 186px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.nombre{
+    position: relative;    
+    height: 19px;    
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19em /*19px;*/
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.posicion{
+    position: relative;    
+    height: 19px;
+    top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19em; /*19px;*/
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.base{
+
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+
+    background-color: var(--backg1-color);
+}
+.estudio-web2 {
+
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 205px;
+    top: 40px;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.94em /*31px;*/
+    letter-spacing: 0.03em;
+    text-align: right;
+
+    color: var(--color-text);
+
+}
+.direccion{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em: /*24px;*/
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
+/* portfolio */
+.body-portfolio{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+.button-port{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63em; /*26px;*/
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.button-port:hover{
+    background-color: var(--color-text);
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.button-port:focus {
+    background-color: var(--color-text);
+    color: white;
+    cursor: pointer;
+}
+.button-portfolio-1{
+    height: 38px;
+    width: 73px;
+    border-radius: 4px;
+}
+.button-portfolio-2{
+    height: 38px;
+    width: 128px;
+    border-radius: 4px;
+}
+.button-portfolio-3{
+    height: 38px;
+    width: 145px;
+    border-radius: 4px;
+}
+.button-portfolio-4{
+    height: 38px;
+    width: 103px;
+    border-radius: 4px;
+}
+.button-portfolio-5{
+    height: 38px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.filter {
+    margin-top: 80px;
+    text-align: center;
+}
+.filter-item{
+    text-align: center;
+    list-style: none;
+    display: inline-block;    
+}
+.images-portfolio{
+    margin-top: 20px;
+    text-align: center;   
+}
+.portfolio-row{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+.nombre-proyecto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25em; /*36px;*/
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.tipo-proyecto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88em; /*30px;*/
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 10px;
+    text-align: left;
+}
+.base-portfolio {
+
+   
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    background-color: var(--backg1-color);
+}
+.estudio-web2-portfolio{
+
+    width: 145px;
+    height: 31px;
+    margin-left: 205px;
+    margin-top: 40px;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.94em; /*31px;*/
+    letter-spacing: 0.03em;
+    text-align: right;
+
+    color: var(--color-text);
+
+}
+.direccion-portfolio {
+    
+    width: 231px;
+    height: 21px;
+    margin-left: 215px;
+    margin-top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em; /*24px;*/
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+/* contacts */
+.on-construction{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
