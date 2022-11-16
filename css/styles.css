@@ -5,7 +5,8 @@
     --backg1-color: #2F303A;
 }
 
-.encabezado{
+.encabezado,
+.container {
     
     width: 1200px;
     height: 80px ;
@@ -13,8 +14,9 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    align-content: center;
+
 }
 
 .estudio-web1{
@@ -49,7 +51,9 @@
     height: 16px;   
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 40px;
+
 }
 .enlace-activo{
     
@@ -69,7 +73,6 @@
     cursor: pointer;
 }
 .portafolio{
-    padding-left: 50px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -87,8 +90,6 @@
 }
 .contactos{
 
-    padding-left: 50px;
-
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -98,26 +99,27 @@
 
     color: #212121;
     text-decoration: none;
+    
 }
 .contactos:hover {
     color: var(--color-text);
     cursor: pointer;
 }
 .contact-data{
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 25px;
+    padding-top: 35px;
+    gap: 40px;
 }
-.mail{
-    padding-left: 20px;
-}
+
 
 .correo-electronico{
     
     height: 16px;
    
-    align-self: auto;
+    align-self: flex-end;
 
     font-family: Roboto;
     font-size: 14px;
@@ -138,13 +140,8 @@
     align-items: flex-end;
 }
 
-.cell{
-    padding-left: 20px;
-}
-
 .telefono{
-    
-    
+       
     height: 16px;
 
     font-family: Roboto;
@@ -166,13 +163,15 @@
 }
 .titulo{
 
-        height: 600px;
+        /* height: 600px; */
         width: 1600px;
         
         background-color: var(--backg1-color);
 
         display: flex;
         flex-direction: row-reverse;
+
+        
 
 }
 .button {
@@ -216,6 +215,9 @@
 .features{
     margin-top: 80px;
     text-align: center;
+    display: flex;
+
+    
 }
 .lista-features {
     display: inline-flex;
@@ -555,25 +557,30 @@
     margin-left: 10px;
     text-align: left;
 }
+
 .base-portfolio {
 
-   
+    position: absolute;
     width: 1600px;
     height: 252px;
     left: 0px;
+    top: 2158px;
+
     background-color: var(--backg1-color);
 }
 .estudio-web2-portfolio{
 
+    position: absolute;
     width: 145px;
     height: 31px;
-    margin-left: 205px;
-    margin-top: 40px;
+    left: 205px;
+    top: 40px;
 
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 1.94em; /*31px;*/
+    line-height: 1.94em
+        /*31px;*/
     letter-spacing: 0.03em;
     text-align: right;
 
@@ -582,27 +589,30 @@
 }
 .direccion-portfolio {
     
-    width: 231px;
-    height: 21px;
-    margin-left: 215px;
-    margin-top: 100px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5em; /*24px;*/
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #FFFFFF;
+    position: absolute;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 100px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5em:
+            /*24px;*/
+            /* or 171% */
+    
+            letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
 
 }
 /* contacts */
 .on-construction{
+    width: 1200px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    align-content: center;
+    
     width: 50%;
 }
