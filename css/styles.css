@@ -1,30 +1,30 @@
+@import url(/css/modern-normalize.min.css);
+
 :root{
     --color-text: #2196F3;
     --backg1-color: #2F303A;
 }
 
-
-.principal {
-    
-    /* display: flex;    
-    flex-direction: column; */    
-    display: inline-block;
-}
 .encabezado{
     
-    width: 1600px;
+    width: 1200px;
     height: 80px ;
     border-color: blue;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
 .estudio-web1{
 
-    position: absolute;
+    
     width: 145px;
     height: 31px;
-    left: 215px;
-    top: -10px;
+    margin: 0px;
+    margin-top: -20px;
+    
 
     font-family: Raleway;
     font-size: 26px;
@@ -37,12 +37,19 @@
     
 }
 
+.linea-superior{
+    height: 80px;
+    display: flex;
+    padding-top: 40px;
+}
+
 .menu-nav{
-    position: absolute;
+    
     width: 290px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+    height: 16px;   
+
+    display: flex;
+    justify-content: flex-start;
 }
 .enlace-activo{
     
@@ -62,7 +69,7 @@
     cursor: pointer;
 }
 .portafolio{
-    margin-left: 50px;
+    padding-left: 50px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -80,7 +87,7 @@
 }
 .contactos{
 
-    margin-left: 50px;
+    padding-left: 50px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -96,14 +103,21 @@
     color: var(--color-text);
     cursor: pointer;
 }
+.contact-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.mail{
+    padding-left: 20px;
+}
 
 .correo-electronico{
     
-    position: absolute;
-    width: 135px;
     height: 16px;
-    left: 1078px;
-    top: 32px;
+   
+    align-self: auto;
 
     font-family: Roboto;
     font-size: 14px;
@@ -120,14 +134,18 @@
 
     color: var(--color-text);
     cursor: pointer;
+
+    align-items: flex-end;
+}
+
+.cell{
+    padding-left: 20px;
 }
 
 .telefono{
-    position: absolute;
-    width: 120px;
+    
+    
     height: 16px;
-    left: 1263px;
-    top: 32px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -138,6 +156,9 @@
 
     color: black;
     text-decoration: none;
+
+    align-items: flex-end;
+    
 }
 .telefono:hover {
     color: var(--color-text);
@@ -152,8 +173,6 @@
 
         display: flex;
         flex-direction: row-reverse;
-        
-        display: inline-block;
 
 }
 .button {
@@ -503,6 +522,14 @@
     text-align: center;
     list-style: none;
     display: inline-block;
+    padding: 15px;
+
+}
+.portfolio-row:hover {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 .nombre-proyecto{
